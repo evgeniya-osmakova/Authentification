@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/codesford/frontend-test.git"
+    "url": "git+https://github.com/evgeniya-osmakova/Authentification.git"
   },
   "author": "Evgeniya Osmakova",
   "private": true,
