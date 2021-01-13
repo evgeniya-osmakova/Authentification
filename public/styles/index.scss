@@ -1,0 +1,10 @@
+@import "public/styles/vars";
+@import "public/styles/forms";
+@import "public/styles/loading";
+
+html, body {
+  min-width: 300px;
+  @include bodyText;
+  padding: 0;
+  margin: 0;
+}

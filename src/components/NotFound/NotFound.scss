@@ -1,0 +1,55 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    margin-right: 380px;
+
+    @media (max-width: 850px) {
+      margin-right: 100px;
+    }
+
+    @media (max-width: 450px) {
+      margin-right: 0;
+    }
+  }
+
+  &__img {
+    padding-bottom: 50px;
+
+    @media (max-width: 850px) {
+      width: 400px;
+    }
+
+    @media (max-width: 450px) {
+      width: 300px;
+    }
+  }
+
+  &__btn {
+    margin-bottom: 20px;
+    width: 310px;
+  }
+}
+
+.notFound-header {
+  display: flex;
+  align-items: center;
+
+  &__img {
+    padding-right: 10px;
+  }
+
+  &__title {
+    @include h2Text;
+    text-align: left;
+
+  }
+}

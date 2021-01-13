@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+$main-color: #5870F2;
+$background: #F6F6F6;
+$color-white: #fff;
+$font-color: #232121;
+$error-color: #e63946;
+$grey-color: #AAAAAA;
+$success-color: #228B22;
+
+@mixin h2Text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: $font-color;
+}
+
+@mixin h4Text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: $font-color;
+}
+
+@mixin h5Text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: $font-color;
+}
+
+@mixin bodyText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: $font-color;
+}

@@ -1,0 +1,18 @@
+.bio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.info {
+  &__row {
+    padding-bottom: 15px;
+  }
+}
+
+.avatar {
+  width: 100px;
+  border: 2px solid $grey-color;
+  margin: 20px;
+}
